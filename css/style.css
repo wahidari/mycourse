@@ -1,0 +1,387 @@
+/*--------------------------------------------------------------
+# Root Color
+--------------------------------------------------------------*/
+:root {
+    --blue-primary: #007BFF;
+    --blue-dark: #0068D8;
+    --blue-light: #F6FAFF;
+
+    --white-primary: #ffffff;
+    --white-secondary: #E4E9F3;
+
+    --black-primary: #1F2E35;
+    --black-secondary: #30444E;
+    --black-light: #263942;
+}
+
+body.dark-theme {
+    --background-color-primary: var(--black-primary);
+    --background-color-secondary: var(--black-light);
+
+    --text-color: var(--white-primary);
+    --text-color-secondary: var(--white-secondary);
+
+    --border-color: var(--black-light);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color-primary);
+
+    --background-color-primary: var(--white-primary);
+    --background-color-secondary: var(--blue-light);
+
+    --text-color: var(--black-primary);
+    --text-color-secondary: var(--black-secondary);
+
+    --border-color: var(--white-secondary);
+   
+}
+
+h2 {
+    font-weight: 600;
+    color: #1F2E35;
+    line-height: 150%;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: var(--background-color-primary);
+}
+
+a.navbar-brand {
+    
+}
+
+.navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--text-color) !important;
+    font-size: 32px;
+}
+
+.nav-item a {
+    font-weight: 600;
+}
+
+.nav-item {
+    margin-right: 28px;
+    padding: 0.5rem 0;
+}
+
+.navbar-toggler {
+    color: var(--text-color);
+}
+
+/* HERO */
+
+.hero h1 {
+    font-size: calc(1.525rem + 1.5vw);
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 150%;
+}
+
+.hero h6 {
+    font-weight: 500;
+    line-height: 180%;
+    font-size: 20px;
+    color: var(--text-color-secondary);
+}
+
+.hero a {
+    font-weight: 600;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .hero h1 { 
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .hero h6 { 
+        margin: 0px 50px;
+        text-align: center;
+    }
+
+    .center-sm { 
+        text-align: center;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... } */
+
+/* WHY US */
+
+.why-us {
+    margin-top: 100px;
+}
+
+.why-us h2 {
+    color: var(--text-color);
+}
+
+.why-us p {
+    font-weight: 500;
+    color: var(--text-color-secondary);
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.why-us h5 {
+    font-weight: 600;
+    color: var(--text-color-secondary);
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.why-us img {
+    max-width: 70px;
+    height: auto;
+}
+
+.brand {
+    margin: 70px 0px;
+}
+
+/* COMFORT */
+
+.comfort {
+    margin-top: 70px;
+}
+
+.comfort h2 {
+    color: var(--text-color);
+}
+
+.comfort p {
+    font-weight: 500;
+    color: var(--text-color-secondary);
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.comfort a {
+    font-weight: 600;
+}
+
+/* FEATURED */
+
+.featured {
+    margin-top: 70px;
+}
+
+.featured h2 {
+    color: var(--text-color);
+}
+
+.featured h5 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--black-primary);
+    line-height: 150%;
+}
+
+.featured p {
+    color: var(--text-color-secondary);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.featured .card {
+    border-radius: 12px;
+}
+
+.featured .card p {
+    color: #30444E;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+.featured a {
+    font-weight: 600;
+}
+
+/* PRICELIST */
+
+.pricelist {
+    margin-top: 70px;
+    background-color: var(--background-color-secondary);
+}
+
+
+.pricelist h5 {
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.pricelist p {
+    color: var(--text-color-secondary);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.card h2 {
+    color: #0068D8 !important;
+}
+
+.pricelist h2 {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.pricelist .text-sub {
+    color: var(--text-color-secondary);
+    font-size: 20px;
+}
+
+.pricelist .card {
+    border-radius: 16px;
+    background-color: var(--background-color-secondary);
+    border: 3px solid #007BFF ;
+}
+
+.pricelist .list-group-item {
+    border: 0px;
+    padding: 0;
+}
+
+.pricelist a {
+    font-weight: 600;
+}
+
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/* TESTIMONI */
+
+.testimoni {
+    margin-top: 70px;
+}
+
+.testimoni h2 {
+    color: var(--text-color);
+}
+
+.testimoni h4 {
+    color: var(--text-color);
+    font-weight: 600;
+    line-height: 180%;
+}
+
+.testimoni h5 {
+    color: var(--text-color);
+    font-weight: 600;
+    line-height: 180%;
+}
+
+.testimoni h6 {
+    color: var(--text-color);
+}
+
+.testimoni p {
+    color: var(--text-color-secondary);
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.testimoni img {
+    border: 3px solid #007BFF;
+    border-radius: 100%;
+}
+
+
+/* CTA */
+
+.cta {
+    margin-top: 40px;
+}
+
+.cta .call-action{
+    border-radius: 32px;
+    background-color: #007BFF;
+}
+
+.cta p {
+    font-size: 18px;
+}
+
+.cta h3 {
+    font-weight: 600;
+    line-height: 160%;
+}
+
+/* FOOTER  */
+
+.page-footer {
+    margin-top: 70px;
+    background-color: var(--background-color-primary);
+}
+
+.border-top {
+    border-top: 1px solid var(--border-color) !important;
+}
+
+.social-link {
+    width: 20px;
+    height: auto;
+}
+
+.page-footer a {
+    font-weight: 500;
+    color: var(--text-color-secondary) ;
+}
+
+.footer-copyright {
+    color: var(--text-color) ;
+}
+
+a.link-icon:hover {
+    color: #E3EEFF ;
+    background-color: #007BFF;
+}
+
+.page-footer li {
+    margin-bottom: 8px;
+}
+
+a.link-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.page-footer .link-icon {
+    color: #007BFF;
+    padding: 8px 10px;
+    font-size: 20px;
+    border-radius: 100%;
+    background-color: #E3EEFF;
+}
+
+.footer-brand {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--text-color);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a.footer-brand:hover {
+    text-decoration: none;
+}
+
+.text-custom {
+    color: var(--text-color-secondary);
+}

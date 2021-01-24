@@ -58,10 +58,6 @@ h2 {
     background-color: var(--background-color-primary);
 }
 
-a.navbar-brand {
-    
-}
-
 .navbar-brand {
     font-family: 'Montserrat Alternates', sans-serif;
     color: var(--text-color) !important;
